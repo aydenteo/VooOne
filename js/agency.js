@@ -11,10 +11,15 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
+	
+	$(".nav a").on("click", function(){
+	$(".nav").find(".active").removeClass("active");
+	$(this).parent().addClass("active");
+	});
 
     // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
-        target: '.navbar-fixed-top',
+        target: '.navbar navbar-default navbar-custom navbar-fixed-top',
         offset: 51
     });
 
@@ -23,11 +28,6 @@
             $('.navbar-toggle:visible').click();
     });
 
-	// Test
-	$('.navbar-collapse ul li a').click(function(){ 
-            $(".nav li").removeClass("active");
-			$(this).addClass("active");
-	});
 	
     // Offset for Main Navigation
     $('#mainNav').affix({
