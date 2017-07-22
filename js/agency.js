@@ -4,6 +4,11 @@
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
+	$(document).ready(function() {
+	$('li.active').removeClass('active');
+	$('a[href="' + location.pathname + '"]').closest('li').addClass('active'); 
+	});
+	
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
