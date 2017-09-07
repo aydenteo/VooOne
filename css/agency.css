@@ -259,20 +259,12 @@ header .intro-text .intro-heading {
 @media (min-width: 768px) {
   header .intro-text {
     padding-top: 100px;
-    padding-bottom: 200px;
+    padding-bottom: 500px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 35px;
-    line-height: 35px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-lead-in2 {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 35px;
     margin-bottom: 25px;
   }
@@ -280,7 +272,7 @@ header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 35px;
     margin-bottom: 25px;
   }
